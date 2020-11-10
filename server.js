@@ -4,7 +4,7 @@ var apiRoutes = require("./routes/apiRoutes.js");
 
 var app = express();
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
